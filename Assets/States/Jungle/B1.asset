@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3edf3b2541f2a443affc03d7140856e, type: 3}
+  m_Name: B1
+  m_EditorClassIdentifier: 
+  storyText: 'Finally at the jungle! Hmm.. I could go through the thick bushes or
+    follow the river to uphill. thick bushes could wound me and the river has alligators...
+    What should I do?
+
+
+    1. Follow the river!
+
+    2. Go through the bushes!'
+  nextStates:
+  - {fileID: 11400000, guid: 92bed1c763fac9d4580c0bc20ab41591, type: 2}
+  - {fileID: 11400000, guid: 21072bcc385f37e4eac41957d6ec27e0, type: 2}

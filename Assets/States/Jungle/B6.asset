@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3edf3b2541f2a443affc03d7140856e, type: 3}
+  m_Name: B6
+  m_EditorClassIdentifier: 
+  storyText: "That was close! Good that I went to swim school.\n\nWaterfall!! It\u2019s
+    so beautiful. How do i get up there? I have a rope, could try to throw it up
+    OR I could try to go around but it would take more time.\n\n1. Use the rope\n2.
+    Go around\n\n"
+  nextStates:
+  - {fileID: 11400000, guid: 46bb7e1a18cf87242aa587fb3a1fdca7, type: 2}
+  - {fileID: 11400000, guid: f028da9fa239f8244889e8f2b2ff1510, type: 2}

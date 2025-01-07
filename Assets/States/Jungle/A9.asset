@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3edf3b2541f2a443affc03d7140856e, type: 3}
+  m_Name: A9
+  m_EditorClassIdentifier: 
+  storyText: "Made it to the other side, almost at the top of the mountain!!!\n\n\rI
+    see a mountain wolf ahead of me...I think he spotted me... Am I faster than a
+    wolf? Or should I make a loud sound to scare him away\n\n1. Run!!\n2. Scare him!"
+  nextStates:
+  - {fileID: 11400000, guid: 2211994c4a42ab14e8adbeabc616b9a7, type: 2}
+  - {fileID: 11400000, guid: a4231fd538c164a4982d9200dc2f6c6a, type: 2}

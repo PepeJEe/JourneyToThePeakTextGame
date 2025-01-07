@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3edf3b2541f2a443affc03d7140856e, type: 3}
+  m_Name: A1. The Start
+  m_EditorClassIdentifier: 
+  storyText: "I can see the mountains from here!! But I have to choose which way
+    do I go? Left path takes me to the jungles and right path takes me to the caves!
+    \n\nWhat should I do?\n1. I'm not afraid of the dark!! I'll go to the caves!!\n2.
+    I have always wanted to explore the great jungle! Now is my chance!!"
+  nextStates:
+  - {fileID: 11400000, guid: 59f0d9bda13a4cf44b781516e0283c6c, type: 2}
+  - {fileID: 11400000, guid: 434e0f48a51eb16418add09ea84bbf17, type: 2}

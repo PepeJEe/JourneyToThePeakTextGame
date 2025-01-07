@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3edf3b2541f2a443affc03d7140856e, type: 3}
+  m_Name: A8
+  m_EditorClassIdentifier: 
+  storyText: "OH NO.... Branch won\u2019t hold me. I could try to jump from the branch
+    to the other side or I could head back and use the rope\n\n1. Jump!!\n2. Head
+    back"
+  nextStates:
+  - {fileID: 11400000, guid: cdc9c54d3d45c7d4c82f76a48d4d60ca, type: 2}
+  - {fileID: 11400000, guid: ca585b46500aab9409dbd025c1df913d, type: 2}

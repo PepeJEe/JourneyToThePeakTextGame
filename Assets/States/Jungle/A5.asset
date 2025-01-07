@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3edf3b2541f2a443affc03d7140856e, type: 3}
+  m_Name: A5
+  m_EditorClassIdentifier: 
+  storyText: 'Finally out of the cave and I can begin my hike to the mountain!
+
+
+    There
+    is a big cavern...I have to cross it somehow. Tree branch looks strong enough
+    to help me cross it or I could use my rope to make a way to the other side.
+
+
+    1.
+    Use the branch!
+
+    2. Use the rope!'
+  nextStates:
+  - {fileID: 11400000, guid: 947bb0ff17aaea4439caace8a7dd59f4, type: 2}
+  - {fileID: 11400000, guid: e39c2a9c082339f4daf1136019434eda, type: 2}

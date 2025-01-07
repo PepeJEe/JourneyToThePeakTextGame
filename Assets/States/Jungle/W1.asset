@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3edf3b2541f2a443affc03d7140856e, type: 3}
+  m_Name: W1
+  m_EditorClassIdentifier: 
+  storyText: 'MADE IT TO THE TOP OF THE MOUNTAIN!!!
+
+
+    1. Play again?
+
+    2.
+    Go eat some marshmellows?'
+  nextStates:
+  - {fileID: 11400000, guid: 3d6afc8d6969ab64195b5304a706c65b, type: 2}
+  - {fileID: 11400000, guid: a97d3256b6f6ab543a3b656c41dd0495, type: 2}

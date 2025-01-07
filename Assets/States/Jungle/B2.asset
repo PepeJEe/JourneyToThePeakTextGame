@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3edf3b2541f2a443affc03d7140856e, type: 3}
+  m_Name: B2
+  m_EditorClassIdentifier: 
+  storyText: "OUCH! These bushes hurt me, I can\u2019t continue \nlike this. I could
+    make a tool with the rocks and sticks OR I could head back to the river but it
+    would take more time.\n\n1. Make a tool!\n2. Head back to the river!"
+  nextStates:
+  - {fileID: 11400000, guid: 530f83c36842c0f46bea4eb1a3345dc5, type: 2}
+  - {fileID: 11400000, guid: 92bed1c763fac9d4580c0bc20ab41591, type: 2}

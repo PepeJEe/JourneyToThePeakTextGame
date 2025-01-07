@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3edf3b2541f2a443affc03d7140856e, type: 3}
+  m_Name: B4
+  m_EditorClassIdentifier: 
+  storyText: 'It''s so hot in here, should i take a swim or continue my journey?
+    Nice bath would be nice :)
+
+
+    1. Take a swim in the river!
+
+    2. Continue
+    the journey!'
+  nextStates:
+  - {fileID: 11400000, guid: c1ebdbe80b6b6ee4db510312198c49ff, type: 2}
+  - {fileID: 11400000, guid: f7bc149d9fe3974458dd469d1fba8623, type: 2}
